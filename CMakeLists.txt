@@ -19,6 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Heartbeat.msg"
   "msg/JobFinished.msg"
   "msg/MissionAbort.msg"
+  "msg/MissionStart.msg"
 )
 
 if(BUILD_TESTING)
