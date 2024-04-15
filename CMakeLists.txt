@@ -11,7 +11,14 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  # FCC interface Messages
+  "msg/FlyToCoord.msg"
+
+  # Mission Control Messages
+  "msg/Control.msg"
   "msg/Heartbeat.msg"
+  "msg/JobFinished.msg"
+  "msg/MissionAbort.msg"
 )
 
 if(BUILD_TESTING)
