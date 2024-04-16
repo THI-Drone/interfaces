@@ -1,3 +1,3 @@
-string sender_id
+std_msgs/Header header
+uint32 seq
 bool active
-uint32 tick
