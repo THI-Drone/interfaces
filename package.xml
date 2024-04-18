@@ -8,6 +8,7 @@
   <license>MIT</license>
   <url>https://github.com/THI-Drone/interfaces</url>
   <author email="job8197@thi.de">Johan</author>
+  <author email="pgh6386@thi.de">philipp</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>builtin_interfaces</buildtool_depend>

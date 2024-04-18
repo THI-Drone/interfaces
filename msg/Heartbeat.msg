@@ -1,4 +1,4 @@
-builtin_interfaces/Time time_stamp
 string sender_id
-uint32 seq
+uint32 tick
 bool active
+builtin_interfaces/Time time_stamp
