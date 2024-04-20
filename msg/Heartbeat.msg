@@ -1,3 +1,4 @@
 string sender_id
-bool active
 uint32 tick
+bool active
+builtin_interfaces/Time time_stamp
