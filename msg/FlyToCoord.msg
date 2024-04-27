@@ -1,5 +1,6 @@
 string sender_id
-int32 lat
-int32 lon
+float64 lat
+float64 lon
 uint16 height
-uint16 speed
+float32 horz_speed
+float32 vert_speed
