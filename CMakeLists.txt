@@ -21,6 +21,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MissionAbort.msg"
   "msg/MissionStart.msg"
 
+  # QR code detection Messages
+  "msg/QRCodeInfo.msg"
+
   # Dependencies
   DEPENDENCIES
         builtin_interfaces
