@@ -18,7 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Control.msg"
   "msg/Heartbeat.msg"
   "msg/JobFinished.msg"
-  "msg/MissionAbort.msg"
+  "msg/MissionFinished.msg"
   "msg/MissionStart.msg"
 
   # Dependencies
