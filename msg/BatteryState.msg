@@ -1,0 +1,8 @@
+builtin_interfaces/Time time_stamp
+string sender_id
+uint32 id
+float32 temperature_degc
+float32 voltage_v
+float32 current_battery_a
+float32 capacity_consumed_ah
+float32 remaining_percent
