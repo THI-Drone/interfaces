@@ -1,0 +1,9 @@
+builtin_interfaces/Time time_stamp
+string sender_id
+bool is_gyrometer_calibration_ok
+bool is_accelerometer_calibration_ok
+bool is_magnetometer_calibration_ok
+bool is_local_position_ok
+bool is_global_position_ok
+bool is_home_position_ok
+bool is_armable

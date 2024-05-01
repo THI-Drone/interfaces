@@ -1,0 +1,5 @@
+builtin_interfaces/Time time_stamp
+string sender_id
+bool was_available_once
+bool is_available
+float32 signal_strength_percent

@@ -1,0 +1,5 @@
+builtin_interfaces/Time time_stamp
+string sender_id
+float32 roll_deg
+float32 pitch_deg
+float32 yaw_deg

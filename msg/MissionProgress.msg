@@ -1,0 +1,3 @@
+builtin_interfaces/Time time_stamp
+string sender_id
+float32 progress
