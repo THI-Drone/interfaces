@@ -1,5 +1,5 @@
-builtin_interfaces/Time time_stamp
-string sender_id
-bool was_available_once
-bool is_available
-float32 signal_strength_percent
+builtin_interfaces/Time time_stamp # Timestamp from when the message was send
+string sender_id # Name of the node that send this command
+bool was_available_once # True if an RC signal has been available once
+bool is_available # True if the RC signal is available now
+float32 signal_strength_percent # Signal strength (range: 0 to 100, NaN if unknown)
