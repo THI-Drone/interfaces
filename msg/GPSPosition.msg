@@ -1,4 +1,4 @@
-builtin_interfaces/Time time_stamp # Timestamp from when the message was send
+builtin_interfaces/Time time_stamp # Timestamp from when the message was sent
 string sender_id # Name of the node that send this command
 float64 latitude_deg # Latitude in degrees (range: -90 to +90)
 float64 longitude_deg # Longitude in degrees (range: -180 to +180)

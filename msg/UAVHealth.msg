@@ -1,4 +1,4 @@
-builtin_interfaces/Time time_stamp # Timestamp from when the message was send
+builtin_interfaces/Time time_stamp # Timestamp from when the message was sent
 string sender_id # Name of the node that send this command
 bool is_gyrometer_calibration_ok # True if the gyrometer is calibrated
 bool is_accelerometer_calibration_ok # True if the accelerometer is calibrated
