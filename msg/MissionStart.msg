@@ -1,1 +1,1 @@
-string sender_id
+string sender_id # Name of the sending node
