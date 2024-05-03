@@ -1,2 +1,3 @@
 string qr_code_content
-float32[] qr_code_position
+float32 qrcode_position_x
+float32 qrcode_position_y
