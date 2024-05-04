@@ -24,6 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/UAVHealth.msg"
   "msg/UAVWaypointCommand.msg"
   "msg/Waypoint.msg"
+  "msg/SafetyLimits.msg"
 
   # Mission Control Messages
   "msg/Control.msg"
