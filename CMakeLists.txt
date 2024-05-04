@@ -13,8 +13,10 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   # FCC Bridge Messages
   "msg/BatteryState.msg"
+  "msg/FlightMode.msg"
   "msg/FlightState.msg"
   "msg/GPSPosition.msg"
+  "msg/LandedState.msg"
   "msg/MissionProgress.msg"
   "msg/Pose.msg"
   "msg/RCState.msg"
