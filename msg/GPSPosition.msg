@@ -2,7 +2,7 @@ builtin_interfaces/Time time_stamp # Timestamp from when the message was sent
 string sender_id # Name of the node that sent this command
 float64 latitude_deg # Latitude in degrees (range: -90 to +90)
 float64 longitude_deg # Longitude in degrees (range: -180 to +180)
-float64 relative_altitude_m # Altitude relative to takeoff altitude in metres
+float32 relative_altitude_m # Altitude relative to takeoff altitude in metres
 uint8 fix_type # GPS Fix type
 #enum
 uint8 NO_GPS = 0 # No GPS connected
