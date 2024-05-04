@@ -1,5 +1,5 @@
 builtin_interfaces/Time time_stamp # Timestamp from when the message was sent
-string sender_id # Name of the node that send this command
+string sender_id # Name of the node that sent this command
 uint32 id # Battery ID, for systems with multiple batteries
 float32 temperature_degc # Temperature of the battery in degrees Celsius. NAN for unknown temperature
 float32 voltage_v # Voltage in volts

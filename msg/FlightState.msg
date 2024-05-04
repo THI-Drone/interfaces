@@ -1,5 +1,5 @@
 builtin_interfaces/Time time_stamp # Timestamp from when the message was sent
-string sender_id # Name of the node that send this command
+string sender_id # Name of the node that sent this command
 uint8 flight_mode # Current flight mode of the UAV
 #enum
 uint8 UNKNOWN = 0 # Mode not known
