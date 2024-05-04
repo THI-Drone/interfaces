@@ -7,8 +7,8 @@ uint8 fix_type # GPS Fix type
 #enum
 uint8 NO_GPS = 0 # No GPS connected
 uint8 NO_FIX = 1 # No position information, GPS is connected
-uint8 FIX_2D = 2 # 2D position
-uint8 FIX_3D = 3 # 3D position
-uint8 FIX_DGPS = 4 # DGPS/SBAS aided 3D position
-uint8 RTK_FLOAT = 5 # RTK float, 3D position
-uint8 RTK_FIXED = 6 # RTK Fixed, 3D position.
+uint8 FIX_2D = 2 # Position with 2D accuracy established
+uint8 FIX_3D = 3 # Position with 3D accuracy established
+uint8 FIX_DGPS = 4 # DGPS/SBAS aided 3D position established
+uint8 RTK_FLOAT = 5 # RTK float and 3D position established
+uint8 RTK_FIXED = 6 # RTK Fixed and 3D position established
