@@ -11,8 +11,20 @@ find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  # FCC interface Messages
-  "msg/FlyToCoord.msg"
+  # FCC Bridge Messages
+  "msg/BatteryState.msg"
+  "msg/FlightMode.msg"
+  "msg/FlightState.msg"
+  "msg/GPSPosition.msg"
+  "msg/LandedState.msg"
+  "msg/MissionProgress.msg"
+  "msg/Pose.msg"
+  "msg/RCState.msg"
+  "msg/UAVCommand.msg"
+  "msg/UAVHealth.msg"
+  "msg/UAVWaypointCommand.msg"
+  "msg/Waypoint.msg"
+  "msg/SafetyLimits.msg"
 
   # Mission Control Messages
   "msg/Control.msg"
